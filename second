@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Points</title>
+</head>
+<body>
+
+<script>
+    var password = prompt("Please enter the password:");
+
+    if (password !== "SMRAG") {
+        alert("Incorrect password. Access denied.");
+        window.location.href = "https://www.google.com"; // Redirect to Google for example
+    }
+</script>
+
+<h1>Map Points</h1>
+
+<ul>
+    <li>Point S: 52.342971, 21.080487</li>
+    <li>Point M: 52.343464, 21.084970</li>
+    <li>Point R: 52.344128, 21.083820</li>
+    <li>Point A: 52.348803, 21.087645</li>
+    <li>Point G: 52.356630, 21.095358</li>
+</ul>
+
+</body>
+</html>
